@@ -20,6 +20,14 @@ public class Age {
 		
 		System.out.print("Ingresa tu edad: ");
 		int age = scan.nextInt();
+		
+		System.out.print("Ingresaste:    " + age);
+		
+		if (age < MINOR)
+			System.out.println("Eres menor de edad al tener menos de 18");
+		if (age >= MINOR)
+			System.out.println("Eres mayor de edad al tener 18 o más años");
+
 
 	}
 

@@ -9,3 +9,18 @@ public class HelloWorld2 {
 	}
 
 }
+import java.util.Scanner;
+
+public class Age {
+
+	public static void main(String[] args) {
+		final int MINOR = 18;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("Ingresa tu edad: ");
+		int age = scan.nextInt();
+
+	}
+
+}
